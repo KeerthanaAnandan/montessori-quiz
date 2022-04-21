@@ -22,7 +22,7 @@ let questions = [
   },
   {
     id: 4,
-    question: "What do you most believe in? ",
+    question: "What do you believe in most?",
 
     options: [
       "A competitive classroom environment stifles creativity.",
@@ -33,7 +33,7 @@ let questions = [
   {
     id: 5,
     question:
-      "Choose one of the below sentences that best describe your beliefs.",
+      "Choose one of the following sentences that best describes your beliefs.",
 
     options: [
       "Parents want an engaging school that will stimulate and encourage their child’s curiosity, creativity, and imagination.",

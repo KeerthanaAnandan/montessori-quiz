@@ -13,6 +13,9 @@ body {
   width: 100vw;
   height: 100vh;
 }
+.no-decoration{
+  text-decoration: none;
+}
 /* #navbar {
   
   margin: 5px;
@@ -91,7 +94,7 @@ form label {
   font-weight: lighter;
 }
 
-form .button {
+/* form .button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -105,9 +108,9 @@ form .button {
   font-size: x-large;
   line-height: normal;
   margin: auto;
-  /* margin-top: 30px !important; */
+
   font-family: "Poppins", sans-serif;
-}
+} */
 
 /* form .button:hover {
   background: transparent;
