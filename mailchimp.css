@@ -1,6 +1,6 @@
-body {
+/* body {
   background-color: #fff !important;
-}
+} */
 #hide {
   display: none;
 }
@@ -12,6 +12,7 @@ body {
   color: rgb(107, 106, 106);
   width: 100vw !important;
   height: 100vh !important;
+  margin: auto !important;
 }
 .no-decoration {
   text-decoration: none;
@@ -40,9 +41,15 @@ body {
 .card {
   background-color: #fff;
   color: rgb(107, 106, 106) !important;
-  width: 620px;
-  min-height: 600px;
+  /* width: 620px;
+  min-height: 600px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
+  height: max-content;
+  max-width: 600px;
+  padding: 20px;
   /* margin-top: 30px; */
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
   border-radius: 3px;
@@ -218,7 +225,7 @@ form label .asterisk {
   display: none;
 }
 
-@keyframes response {
+/* @keyframes response {
   0% {
     opacity: 0;
     transform: translateY(20px);
@@ -227,7 +234,7 @@ form label .asterisk {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 
 @media (max-width: 768px) {
   header {
@@ -256,12 +263,13 @@ form label .asterisk {
     /* width: 100px !important; */
   }
   .card {
-    width: 300px;
-    height: 620px;
-    margin: auto;
+    /* width: 300px;
+    height: 620px; */
+    /* margin: auto; */
     /* margin-top: 30px; */
-
+    background-color: transparent !important;
     font-size: 10px;
+    box-shadow: none;
   }
   .texts {
     font-size: 13px;
@@ -282,7 +290,7 @@ form label .asterisk {
     display: flex;
     margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: -10px;
+    /* margin-left: -10px; */
   }
   form .button {
     max-width: 200px;
