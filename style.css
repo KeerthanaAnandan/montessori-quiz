@@ -385,7 +385,7 @@ body {
 
   height: max-content;
   text-align: center;
-  margin: 2rem 5rem;
+  /* margin: 2rem; */
 
   /*margin: auto;
   max-width: 1100px;
@@ -590,7 +590,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 0.1rem;
+    height: 0.3rem;
 
     width: 2%;
   }
@@ -607,6 +607,7 @@ body {
     font-size: 19px;
     transition: 0.4s all;
   }
+
   .option::before {
     content: "";
     display: inline-block;
@@ -621,13 +622,11 @@ body {
   .option {
     font-size: 20px;
     display: block;
+    text-align: start;
     width: 90%;
 
     margin-bottom: 0px;
     padding: 10px 30px;
-    border-radius: 1px;
-    border: 2px solid #000;
-    transition: 0.4s all;
   }
   .quiz_timer {
     margin-left: 3px;
@@ -658,7 +657,7 @@ body {
     align-items: center;
 
     text-align: center;
-    margin: 0.2rem 1rem;
+    /* margin: 0.2rem 1rem; */
 
     /*margin: auto;
     max-width: 1100px;

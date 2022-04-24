@@ -212,7 +212,7 @@ function next(e) {
   const progressBarFull = document.getElementById("progressBarFull");
 
   progressBarFull.style.width = ` ${
-    (question_count / Max_Questions) * 100 + 50
+    (question_count / Max_Questions) * 100 + 10
   }%`;
 }
 
