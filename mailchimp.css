@@ -132,7 +132,7 @@ form label {
   justify-content: center;
   max-width: 270px;
   height: 50px;
-  background: #e64d24;
+  background: #e64d24 !important;
   border: none;
   border-radius: 7px;
   color: #fff;
