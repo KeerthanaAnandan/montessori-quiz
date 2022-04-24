@@ -310,7 +310,7 @@ form input[type="submit"] {
     /* margin-top: 30px !important; */
   }
 
-  form .subscribe {
+  /* form .subscribe {
     display: flex;
     align-items: center;
     text-align: center;
@@ -324,7 +324,7 @@ form input[type="submit"] {
     line-height: normal;
     font-size: small;
     margin: 10px;
-  }
+  } */
   form .indicates-required {
     color: #000000;
     font-size: 0.5em;
