@@ -21,7 +21,7 @@
   color: #e64d24;
 }
 .colortwo {
-  color: #6ec1e4;
+  color: #e64d24;
 }
 /*----------------------------------*/
 /*showcase*/
@@ -90,6 +90,7 @@
 /* --------x------ Site title --------x------- */
 body {
   font-family: "Poppins", sans-serif !important;
+  background-color: #f0edea !important;
 }
 .wrapper {
   display: flex;
@@ -97,7 +98,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 .quiz-page-wrapper {
   display: flex;
@@ -106,7 +107,7 @@ body {
   width: 100vw;
   margin: auto;
   height: 100vh;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .welcome_text {
@@ -159,7 +160,7 @@ body {
   grid-template-rows: 60px auto;
   width: 800px;
   height: 600px;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
 }
 .quiz_body {
   padding: 30px 30px;
@@ -175,10 +176,10 @@ body {
   margin: 30px 0;
   font-weight: lighter;
 }
-.option.active {
-  background-color: #000;
+/* .option.active {
+  background-color: #F0EDEA;
   color: #fff;
-}
+} */
 .quiz_header,
 .hud {
   text-align: center;
@@ -225,7 +226,7 @@ body {
   margin-bottom: 0px;
   width: 100%;
   font-size: 1.1rem;
-  border: 0.1rem solid rgb(242, 242, 242);
+  border: 0.1rem solid #fa3b00;
   background-color: #fa3b00;
   font-weight: 50 !important;
   font-style: normal;
@@ -234,7 +235,7 @@ body {
 
 .option:hover {
   cursor: pointer;
-  background-color: #66c26b;
+  background-color: #f0edea;
 
   transition: transform 130ms;
   transform: translateY(-0.1rem);
@@ -247,15 +248,15 @@ body {
   width: 100%;
 }
 
-.option.active {
+/* .option.active {
   background-color: #000;
   color: #fff;
-}
+} */
 .btn-next {
   border: none;
   padding: 15px 35px;
-  background-color: #000;
-  color: #000;
+  /* background-color: #000;
+  color: #000; */
 
   transition: 0.4s all;
 }

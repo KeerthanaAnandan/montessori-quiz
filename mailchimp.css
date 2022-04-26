@@ -17,6 +17,9 @@
 .no-decoration {
   text-decoration: none;
 }
+.skipcolor {
+  color: #e64d24;
+}
 /* #navbar {
   
   margin: 5px;
